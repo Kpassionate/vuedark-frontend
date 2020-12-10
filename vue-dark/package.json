@@ -1,0 +1,54 @@
+{
+  "name": "vue-dark",
+  "description": "A Vue.js project",
+  "version": "1.0.0",
+  "author": "Super-GY <guanguanjujiu2018@163.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "webpack-dev-server --open --port 233 --host 127.0.0.1 --hot",
+    "build": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-stage-0": "^6.24.1",
+    "cross-env": "^5.0.5",
+    "css-loader": "^0.28.7",
+    "file-loader": "^1.1.4",
+    "vue-loader": "^13.0.5",
+    "vue-template-compiler": "^2.4.4",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1",
+    "babel-plugin-transform-remove-strict-mode": "^0.0.2",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "clean-webpack-plugin": "^0.1.17",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^2.30.1",
+    "less": "^2.7.3",
+    "less-loader": "^4.0.5",
+    "node-sass": "^4.7.2",
+    "optimize-css-assets-webpack-plugin": "^3.2.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "url-loader": "^0.6.2",
+    "webpack-cli": "^3.3.10"
+  },
+  "dependencies": {
+    "axios": "^0.17.1",
+    "mint-ui": "^2.2.13",
+    "moment": "^2.20.1",
+    "vue": "^2.5.11",
+    "vue-dplayer": "0.0.10",
+    "vue-router": "^3.0.1",
+    "vue-video-player": "^5.0.2",
+    "vue2-preview": "^1.0.1",
+    "vuex": "^3.0.1"
+  }
+}
